@@ -95,12 +95,12 @@ You can add either server to Claude Code in two ways:
 
 For Statler:
 ```bash
-claude mcp add $(PWD)/statler_mcp.py --name statler
+claude mcp add statler $(PWD)/statler_mcp.py
 ```
 
 For Waldorf:
 ```bash
-claude mcp add $(PWD)/waldorf_mcp.py --name waldorf
+claude mcp add waldorf $(PWD)/waldorf_mcp.py
 ```
 
 #### Option 2: Manual Configuration
@@ -274,7 +274,7 @@ Contributions are welcome! Please:
 
 ## License
 
-MIT License - see LICENSE file for details
+GPL v3 License - see LICENSE file for details
 
 ## Acknowledgments
 
