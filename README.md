@@ -95,12 +95,12 @@ You can add either server to Claude Code in two ways:
 
 For Statler:
 ```bash
-claude mcp add /path/to/statler/statler_mcp.py --name statler
+claude mcp add $(PWD)/statler_mcp.py --name statler
 ```
 
 For Waldorf:
 ```bash
-claude mcp add /path/to/statler/waldorf_mcp.py --name waldorf
+claude mcp add $(PWD)/waldorf_mcp.py --name waldorf
 ```
 
 #### Option 2: Manual Configuration
@@ -112,7 +112,7 @@ For Statler:
   "mcpServers": {
     "statler": {
       "command": "python",
-      "args": ["/path/to/statler/statler_mcp.py"],
+      "args": ["$(PWD)/statler_mcp.py"],
       "env": {
         "OLLAMA_API_BASE": "http://localhost:11434",
         "OLLAMA_MCP_MODEL": "llama3.2"
@@ -128,7 +128,7 @@ For Waldorf:
   "mcpServers": {
     "waldorf": {
       "command": "python",
-      "args": ["/path/to/statler/waldorf_mcp.py"],
+      "args": ["$(PWD)/waldorf_mcp.py"],
       "env": {
         "OPENROUTER_API_KEY": "your-api-key-here",
         "OPENROUTER_MCP_MODEL": "openai/gpt-4"
