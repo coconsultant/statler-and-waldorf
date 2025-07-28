@@ -29,7 +29,7 @@ Statler and Waldorf are Model Context Protocol (MCP) servers that provide critic
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/statler.git
+git clone https://github.com/coconsultant/statler.git
 cd statler
 ```
 

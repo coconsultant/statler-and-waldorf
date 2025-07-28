@@ -52,7 +52,7 @@ class WaldorfConfig(BaseConfig):
         return {
             "Authorization": f"Bearer {self.openrouter_api_key}",
             "Content-Type": "application/json",
-            "HTTP-Referer": "https://github.com/yourusername/statler",
+            "HTTP-Referer": "https://github.com/coconsultant/statler",
             "X-Title": "Waldorf MCP Code Review"
         }
 
