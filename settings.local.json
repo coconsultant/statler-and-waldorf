@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:scrapfly.io)",
+      "WebFetch(domain:github.com)",
+      "Bash(OLLAMA_API_BASE=http://localhost:11434 OLLAMA_MCP_MODEL=llama3.2 python test_malformed_hello.py)",
+      "mcp__statler__statler_architect"
+    ],
+    "deny": []
+  }
+}
